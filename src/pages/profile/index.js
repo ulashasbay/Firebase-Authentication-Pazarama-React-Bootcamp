@@ -22,7 +22,7 @@ function ProfilePage() {
     <div className="profile-container">
       <div className="profile-field">
         <h2 className="profile-header">Welcome</h2>
-        <h2 className="user-profile-email">E-mail: {currentUser?.email}</h2>
+        <h2 className="user-profile-email">E-mail: {currentUser?.providerData[0].email}</h2>
         <span className="profile-intro">
           The earliest credible evidence of the drinking of coffee in the form
           of the modern beverage appears in modern-day Yemen from the middle of
