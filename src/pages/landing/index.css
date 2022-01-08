@@ -1,0 +1,76 @@
+.home-container {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.home-field {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0; bottom: 0; right: 0;
+    
+}
+
+.home-header {
+    width: 182px;
+    height: 58px;
+    margin: 90px 0 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47.7488px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.home-intro {
+    position: absolute;
+    width: 530px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 188.8%;
+    margin: 35px 0 0 50px;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+    
+
+}
+
+.home-button {
+    position: absolute;
+    width: 440px;
+    height: 90px;
+    margin: 250px 0 0 80px;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(255, 113, 88);
+    color: #FFFFFF;
+    
+}
+
+.home-button:hover {
+    opacity: 0.9;
+}
+
+.home-button:active {
+    background-color: rgb(253, 81, 51);
+}
+
+.img-coffee {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 600px;
+
+}

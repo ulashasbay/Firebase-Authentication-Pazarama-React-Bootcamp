@@ -1,0 +1,49 @@
+.login-email {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #414042;
+    margin-left: 1px;
+    margin-top: 14px;
+}
+
+.login-input-email {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #FFFFFF;
+    border: 1px solid #BCBEC0;
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 240px;
+    height: 35px;
+    padding: 0 28px 0 15px;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.login-input-email:focus {
+    outline-color: #00B4DB;
+}
+
+.login-password {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #414042;
+    margin-left: 1px;
+    margin-top: 24px;
+}
+
+.eye-icon {
+    position: relative;
+    top: 4px;
+    right: 26px;
+    cursor: pointer;
+}

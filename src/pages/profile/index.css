@@ -1,0 +1,86 @@
+.profile-container {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.profile-field {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0; bottom: 0; right: 0;
+    
+}
+
+.profile-header {
+    width: 182px;
+    height: 58px;
+    margin: 90px 0 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47.7488px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.profile-intro {
+    position: absolute;
+    width: 530px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 188.8%;
+    margin: 30px 0 0 50px;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+    
+
+}
+
+.profile-button {
+    position: absolute;
+    width: 440px;
+    height: 90px;
+    margin: 280px 0 0 80px;
+    border-radius: 100px;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(29, 128, 5);
+    color: #FFFFFF;
+    
+}
+
+.profile-button:hover {
+    opacity: 0.9;
+}
+
+.profile-button:active {
+    background-color: rgb(40, 182, 5);
+}
+
+.img-coffee-profile {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 600px;
+
+}
+
+.user-profile-email {
+    margin: 20px 0 0 50px;
+    color: crimson;
+}
+
+.user-profile-name {
+    margin: 30px 0 0 50px;
+    color: crimson;
+}
