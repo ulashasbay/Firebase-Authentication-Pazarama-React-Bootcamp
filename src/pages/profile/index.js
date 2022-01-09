@@ -5,7 +5,7 @@ import { useAuth } from "../../context/authContext";
 
 function ProfilePage() {
   // authContext den alınan fonksiyon ve state ler
-  const { logout, currentUser } = useAuth();
+  const { logout } = useAuth();
 
   let navigate = useNavigate();
   // Logout butonuna basıldıgında calısacak fonksiyon
@@ -22,7 +22,6 @@ function ProfilePage() {
     <div className="profile-container">
       <div className="profile-field">
         <h2 className="profile-header">Welcome</h2>
-        <h2 className="user-profile-email">E-mail: {currentUser?.email}</h2>
         <span className="profile-intro">
           The earliest credible evidence of the drinking of coffee in the form
           of the modern beverage appears in modern-day Yemen from the middle of
@@ -38,7 +37,7 @@ function ProfilePage() {
         </button>
       </div>
       <div className="img-coffee-profile">
-        <img src={"./Coffee-2.png"} alt="coffee" />
+        <img src={"./profile-coffee-img.png"} alt="coffee" />
       </div>
     </div>
   );

@@ -1,4 +1,3 @@
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import SignUp from "./pages/signup";
 import SignIn from "./pages/signin";

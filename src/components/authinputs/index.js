@@ -3,7 +3,7 @@ import "./index.css";
 import { useAuth } from "../../context/authContext";
 import EyeIcon from "../eyeicon";
 
-function AuthInput({ type, placeholder, labelClassName, labelText, ...args }) {
+function AuthInput({ type, placeholder, labelClassName, labelText }) {
   // authContext den alınan fonksiyon ve stateler
   const { form, setForm } = useAuth();
   // input type bilgisinin atandıgı fonksiyon

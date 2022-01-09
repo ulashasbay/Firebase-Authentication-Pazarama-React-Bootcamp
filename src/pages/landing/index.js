@@ -19,7 +19,7 @@ function LandingPage() {
         </Link>
       </div>
       <div className="img-coffee">
-        <img src={"./Coffee.png"} alt="coffee" />
+        <img src={"./landing-coffee-img.png"} alt="coffee" />
       </div>
     </div>
   );
